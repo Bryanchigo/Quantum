@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quantum</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Jost:ital,wght@0,200;0,300;0,400;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="nebula"></div>
+<div class="grain"></div>
+<canvas id="scene"></canvas>
+
+<nav>
+  <div class="mark">Quant<span>u</span>m</div>
+  <div class="navlinks">
+    <a href="#study">Study</a>
+    <a href="#form">Form</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="eyebrow">a study in superposition</div>
+  <h1>QUANTUM</h1>
+  <p class="sub">One structure, folded through every state it could possibly hold — rendered, rotated, and never quite still.</p>
+  <div class="scrollcue">Descend</div>
+</section>
+
+<main>
+  <section class="intro" id="study">
+    <div class="kicker">Field notes</div>
+    <p>The lattice you see is not one object but <em>a distribution of them</em> — every possible orientation held at once, resolving only when your eye, or your cursor, comes close enough to ask.</p>
+  </section>
+
+  <section class="triptych" id="form">
+    <div class="cell">
+      <svg class="glyph" viewBox="0 0 34 34" fill="none"><circle cx="17" cy="17" r="12" stroke="#d9b57f" stroke-width="0.8"/><circle cx="17" cy="17" r="6" stroke="#eee9e2" stroke-width="0.8"/></svg>
+      <h3>Entangled Design</h3>
+      <p>Every panel of the mesh answers for the others. Move one thread and the whole form redistributes its light.</p>
+    </div>
+    <div class="cell">
+      <svg class="glyph" viewBox="0 0 34 34" fill="none"><path d="M4 17c4-10 22-10 26 0-4 10-22 10-26 0Z" stroke="#3fb8ad" stroke-width="0.8"/></svg>
+      <h3>Superposed Motion</h3>
+      <p>The knot rotates on three axes at once, so no two visitors ever meet quite the same silhouette.</p>
+    </div>
+    <div class="cell">
+      <svg class="glyph" viewBox="0 0 34 34" fill="none"><path d="M17 4v26M4 17h26" stroke="#b56890" stroke-width="0.8"/><circle cx="17" cy="17" r="13" stroke="#8a6bb0" stroke-width="0.8"/></svg>
+      <h3>Coherent Code</h3>
+      <p>Built to hold its shape at any width — the field, the form, and the type all rescale from one set of rules.</p>
+    </div>
+  </section>
+</main>
+
+<footer>Rendered in real time &middot; drag or tilt to observe</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js">
+</script>
+</body>
+</html>
